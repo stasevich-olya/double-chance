@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220705093644">
+	<title>Верстка «Cripto Wallet»</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="dashboard">
+			<header class="header">
+				<div class="header__nav">
+					<a href="#" class="header__logo">
+						<img src="img/logo/logo.svg" alt="logo">
+					</a>
+					<div class="header__icons icon-header">
+						<div class="icon-header__items">
+							<div class="icon-header__item">
+								<a href="#" class="icon-header__header _icon-header"></a>
+							</div>
+							<div class="icon-header__item">
+								<a href="#" class="icon-header__vallet _icon-vallet"></a>
+							</div>
+							<div class="icon-header__item">
+								<a href="#" class="icon-header__diagram _icon-diagram"></a>
+							</div>
+							<div class="icon-header__item">
+								<a href="#" class="icon-header__kub _icon-kub"></a>
+							</div>
+							<div class="icon-header__item">
+								<a href="#" class="icon-header__account _icon-account"></a>
+							</div>
+							<div class="icon-header__item">
+								<a href="#" class="icon-header__login _icon-login"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="dashboard__page page">
+				<div class="page__header header-page">
+					<h1 class="header-page__title">Overview</h1>
+					<div class="header-page__icons icon-page">
+						<button type="button" class="icon-page__button"><img src="img/header/found.svg" alt=""></button>
+						<button type="button" class="icon-page__button icon-page__new _icon-bring"></button>
+						<div class="header-page__profile profile-user">
+							<a href="" class="profile-user__avatar"><img src="img/header/user.svg" alt="user"></a>
+							<button type="button" class="profile-user__button _icon-arrow">
+								<div class="profile-user__text">Zoia M.</div>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="dashboard__cards">
+					<div class="dashboard__portfolio portfolio">
+						<h2 class="portfolio__title">Portfolio</h2>
+						<div class="portfolio__card card-portfolio">
+							<div class="card-portfolio__balance">
+								<div class="card-portfolio__price">$ 17 643.41</div>
+								<div class="card-portfolio__desc">Portfolio balance</div>
+							</div>
+							<div class="card-portfolio__more portfolio-more">
+								<button type="button" class="portfolio-more__button _icon-threepoints"></button>
+							</div>
+							<div class="card-portfolio__period portfolio-period">
+								<button type="button" class="portfolio-period__button">1H</button>
+								<button type="button" class="portfolio-period__button">24H</button>
+								<button type="button" class="portfolio-period__button portfolio-period__active">1W</button>
+								<button type="button" class="portfolio-period__button">1M</button>
+								<button type="button" class="portfolio-period__button">1Y</button>
+								<button type="button" class="portfolio-period__button">ALL</button>
+							</div>
+							<a href="" class="card-portfolio__img">
+								<img src="img/toprow/grafic/grafic.svg" alt="grafic">
+							</a>
+
+						</div>
+					</div>
+					<div class="dashboard__assets assets">
+						<div class="assets__header">
+							<h2 class="assets__title portfolio__title">Your Assets</h2>
+							<button type="button" class="assets__button">
+								<img src="img/toprow/compare.svg" alt="compare">
+							</button>
+						</div>
+						<div class="assets__cards">
+							<div class="assets__card card-assert">
+								<div class="card-assert__header">
+									<div class="card-assert__value card-value">1.25 BTC</div>
+									<div class="card-assert__fiat ">$ 2948.04</div>
+									<button type="button" class="card-assert-more__button _icon-threepoints"></button>
+								</div>
+								<div class="card-assert__footer">
+									<div class="card-assert__icon">
+										<picture><source srcset="img/toprow/bitcoin.webp" type="image/webp"><img src="img/toprow/bitcoin.jpg" alt="bitcoin"></picture>
+									</div>
+									<div class="card-assert__income">+ 0.14%</div>
+								</div>
+							</div>
+							<div class="assets__card card-assert card-assert__ltc">
+								<div class="card-assert__header">
+									<div class="card-assert__value card-value">0.32 LTC</div>
+									<div class="card-assert__fiat ">$ 2948.04</div>
+									<button type="button" class="card-assert-more__button _icon-threepoints"></button>
+								</div>
+								<div class="card-assert__footer">
+									<div class="card-assert__icon">
+										<picture><source srcset="img/toprow/ltc.webp" type="image/webp"><img src="img/toprow/ltc.jpg" alt="bitcoin"></picture>
+									</div>
+									<div class="card-assert__income">+ 0.31%</div>
+								</div>
+							</div>
+							<div class="assets__card card-assert card-assert__eth">
+								<div class="card-assert__header">
+									<div class="card-assert__value card-value">1.25 ETH</div>
+									<div class="card-assert__fiat ">$ 2948.04</div>
+									<button type="button" class="card-assert-more__button _icon-threepoints"></button>
+								</div>
+								<div class="card-assert__footer">
+									<div class="card-assert__icon">
+										<picture><source srcset="img/toprow/eth.webp" type="image/webp"><img src="img/toprow/eth.jpg" alt="bitcoin"></picture>
+									</div>
+									<div class="card-assert__income">+ 0.27%</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="dashboard__market">
+					<div class="market">
+						<div class="market__header">
+							<h2 class="market__title">Market is down 0.80%</h2>
+							<div class="market__header-buttons">
+								<button type="button" class="dropdown-button _icon-arrow">24h</button>
+								<button type="button" class="dropdown-button _icon-arrow">Top gainers</button>
+							</div>
+						</div>
+						<div class="market__table">
+							<table class="market-table" cellpadding="0" cellspacing="0">
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Price</th>
+										<th>Chanee</th>
+										<th class="text-right">Market Cap</th>
+										<th>Watch</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<div class="coin">
+												<div class="coin__icon">
+													<picture><source srcset="img/downrow/icons/band.webp" type="image/webp"><img src="img/downrow/icons/band.jpg" alt="Band Protocol"></picture>
+												</div>
+												<div class="coin__text">
+													<div class="coin__title">Band Protocol</div>
+													<div class="coin__desc">BAND</div>
+												</div>
+											</div>
+										</td>
+										<td class="market-table__price">$2.42</td>
+										<td class="market-table__chanee">+13.38%</td>
+										<td class="market-table__cap text-right">$399.8M</td>
+										<td class="market-table__rate"><button class="_icon-star"></button></td>
+									</tr>
+									<tr>
+										<td>
+											<div class="coin">
+												<div class="coin__icon">
+													<picture><source srcset="img/downrow/icons/vechain.webp" type="image/webp"><img src="img/downrow/icons/vechain.jpg" alt="VeChain"></picture>
+												</div>
+												<div class="coin__text">
+													<div class="coin__title">VeChain</div>
+													<div class="coin__desc">VET</div>
+												</div>
+											</div>
+										</td>
+										<td class="market-table__price">$7.48</td>
+										<td class="market-table__chanee">+11.19%</td>
+										<td class="market-table__cap text-right">$399.8M</td>
+										<td class="market-table__rate"><button class="_icon-star"></button></td>
+									</tr>
+									<tr>
+										<td>
+											<div class="coin">
+												<div class="coin__icon">
+													<picture><source srcset="img/downrow/icons/aave.webp" type="image/webp"><img src="img/downrow/icons/aave.jpg" alt="Aave"></picture>
+												</div>
+												<div class="coin__text">
+													<div class="coin__title">Aave</div>
+													<div class="coin__desc">AAVE</div>
+												</div>
+											</div>
+										</td>
+										<td class="market-table__price">$0.0184</td>
+										<td class="market-table__chanee">+7.57%</td>
+										<td class="market-table__cap text-right">$1.2B</td>
+										<td class="market-table__rate"><button class="_icon-star"></button></td>
+									</tr>
+									<tr>
+										<td>
+											<div class="coin">
+												<div class="coin__icon">
+													<picture><source srcset="img/downrow/icons/waves.webp" type="image/webp"><img src="img/downrow/icons/waves.jpg" alt="Waves"></picture>
+												</div>
+												<div class="coin__text">
+													<div class="coin__title">Waves</div>
+													<div class="coin__desc">WAVES</div>
+												</div>
+											</div>
+										</td>
+										<td class="market-table__price">$2.42</td>
+										<td class="market-table__chanee">+13.38%</td>
+										<td class="market-table__cap text-right">$399.8M</td>
+										<td class="market-table__rate"><button class="_icon-star"></button></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="earn-free__container">
+						<div class="earn-free">
+							<div class="earn-free__title">Earn <span class="earn-free__title-free">free</span></b>crypto with
+								Coinview Earn!</div>
+							<div class="earn-free__text">Learn about different cryptocurrencies and
+								earn them for free!</div>
+							<a href="" class="earn-free__button">Earn now</a>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20220705093644"></script>
+</body>
+
+</html>
